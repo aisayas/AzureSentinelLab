@@ -48,7 +48,7 @@ Copy that log from the VM to your host machine and create a custom log in Azure 
 <img src="https://i.imgur.com/T6oeysJ.png" height="80%" width="80%" alt="Azure Sentinel Steps"/>
 <br />
 <br />
-Create a new querie under you Log Analytics Workstation to view the logs of your VM:  <br/>
+Create a new query under you Log Analytics Workstation to view the logs of your VM:  <br/>
 <img src="https://i.imgur.com/b3LTohg.png" height="80%" width="80%" alt="Azure Sentinel Steps"/>
 <br />
 <br />
@@ -56,10 +56,21 @@ I added a few more lines of code to properly parse through the incoming data (su
 <img src="https://i.imgur.com/cA2wwTb.png" height="80%" width="80%" alt="Azure Sentinel Steps"/>
 <br />
 <br />
-Copy that log from the VM to your host machine and create a custom log in Azure Cloud named FAILED_RDP_WITH_GEO:  <br/>
-<img src="https://i.imgur.com/T6oeysJ.png" height="80%" width="80%" alt="Azure Sentinel Steps"/>
+Once the query is created, go to the Azure Sentinel dashboard overview (you should see some data coming in):  <br/>
+<img src="https://i.imgur.com/KfckT4h.png" height="80%" width="80%" alt="Azure Sentinel Steps"/>
 <br />
-
+<br />
+From Azure Sentinel, create a new (blank) workbook and create a query to plot the incoming data:  <br/>
+<img src="https://i.imgur.com/8cSwBi3.png" height="80%" width="80%" alt="Azure Sentinel Steps"/>
+<br />
+<br />
+With a few edits, save the new workbook (I chose "Failed RDP World Map") <br/> [Note: As long as the HoneyPot VM is running, new data will be updated regularly]:  <br/>
+<img src="https://i.imgur.com/1uC27jk.png" height="80%" width="80%" alt="Azure Sentinel Steps"/>
+<br />
+<br />
+In order to save resources, once I completed the lab I deleted the resource group:  <br/>
+<img src="https://i.imgur.com/vepobAX.png" height="80%" width="80%" alt="Azure Sentinel Steps"/>
+<br />
  
 </p>
 
