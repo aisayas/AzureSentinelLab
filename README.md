@@ -1,4 +1,4 @@
-<h1>Azure Sentinal HoneyPot Lab</h1>
+<h1>Azure Sentinel HoneyPot Lab</h1>
 
 <!-- ### [YouTube Demonstration]() -->
 
